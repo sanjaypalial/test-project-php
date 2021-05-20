@@ -1,6 +1,6 @@
 <?php
 
-phpinfo();
+
 // Init app instance
 $app = require "./core/app.php";
 
