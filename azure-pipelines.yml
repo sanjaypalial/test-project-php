@@ -1,4 +1,12 @@
 # PHP
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Microsoft Partner Network (e5d2832a-ce8a-41d6-97f4-ca1980edb5c5)'
+    appType: 'webAppLinux'
+    WebAppName: 'php-app-test'
+    packageForLinux: '/'
+    RuntimeStack: 'PHP|7.4'
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
